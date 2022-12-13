@@ -1,0 +1,1560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		48A1ADC51928449DAFDB14ED /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3A939FD6DA284CC8BA02681D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				6571968EC3146E0306937743 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				AE0E16BD70CC486D90AA48D8 /* PBXTargetDependency */,
+				20960D8185244F9FB814E085 /* PBXTargetDependency */,
+				D76A85FC82314D3C99D1EBDB /* PBXTargetDependency */,
+				D723EFF02D494724B7D44F0D /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		DB8CB47837A848CB8110D0F4 /* update_mappings */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D5F168809DA741B8B66CA95D /* Build configuration list for PBXAggregateTarget "update_mappings" */;
+			buildPhases = (
+				E172C2F4C775A1DA7BA6E0F1 /* Generate glfw-3.3.7/src/CMakeFiles/update_mappings */,
+			);
+			dependencies = (
+			);
+			name = update_mappings;
+			productName = update_mappings;
+		};
+		FFBEE9EDAF83446A815F8E5D /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9943DAC5E1DF46D7BCFBF557 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				454E31CA3CCCA8795750BB1E /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		08A4FB7B3DCB4EEC8EF62023 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 00BF8375CCFC45788BCECB78 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/include/GLFW/glfw3native.h */; };
+		0A4C39C86AA54063A1638D01 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = D15ABB2738B54C25BAAA9996 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_joystick.h */; };
+		0EA926AE3BE041DB96154A52 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/internal.h */ = {isa = PBXBuildFile; fileRef = 2F63CB5CC18E4E8F9B9855DD /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/internal.h */; };
+		1089A3E9D9694F6E934E47C1 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/monitor.c */ = {isa = PBXBuildFile; fileRef = EEF89B538A9F4B6196DD763E /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/monitor.c */; };
+		136C9588B27042F7A099C7DE /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/mat.h */ = {isa = PBXBuildFile; fileRef = B413B2CF098B436F914D01D1 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/mat.h */; };
+		169BF2337DFC42B4A388C56D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = 36C6ECBAFCEF4A8FBC3238B4 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/egl_context.c */; };
+		1B5CD32CF9DA43FD8F2387B7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = 5066CCA07F464E31921E9297 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/posix_thread.h */; };
+		1BBE7F7D643242E2B93F88E1 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Bullets.cpp */ = {isa = PBXBuildFile; fileRef = 6568DB8A380C46389072A364 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Bullets.cpp */; };
+		1D315BB0664542CE9A262DBB /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 23573F064E774B9CA1785F98 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/nsgl_context.h */; };
+		1D69600642B745B5904B936D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/path/path.cpp */ = {isa = PBXBuildFile; fileRef = D9D4C1952C124F0888EEC879 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/path/path.cpp */; };
+		277AA4F72E2D4C53A8E74831 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/vec.h */ = {isa = PBXBuildFile; fileRef = 81C92DE1CA974685852B43EA /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/vec.h */; };
+		3390B58DF0C948D4B75CF6A3 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Background.h */ = {isa = PBXBuildFile; fileRef = F79A4C983EFA4065AB8D1682 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Background.h */; };
+		34C2D46483754662B3B072AE /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/input.c */ = {isa = PBXBuildFile; fileRef = 4F618BB713D84D4792CE0AA7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/input.c */; };
+		39264D0B590C4A94A471370F /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Background.cpp */ = {isa = PBXBuildFile; fileRef = 92FE95F923DF45B7B0002CE2 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Background.cpp */; };
+		3AEAD97F0D6B4BE39840F050 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps/glad_vulkan.c */ = {isa = PBXBuildFile; fileRef = 2215A051A90C4193B8EBF942 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps/glad_vulkan.c */; };
+		3D1B75F000304FF1B66B393E /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/egl_context.h */ = {isa = PBXBuildFile; fileRef = 306A397AA143413193E8C714 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/egl_context.h */; };
+		3DB81D9B73834074999E500A /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 69EC52DD6FAF49DA8CE92529 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_init.m */; };
+		4153F9F840B941959465FC5D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Asteroid.cpp */ = {isa = PBXBuildFile; fileRef = 77D548ECBBB3467891D9446B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Asteroid.cpp */; };
+		4B4F934173824201BD990D16 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/shaders/vshader_Texture.glsl */ = {isa = PBXBuildFile; fileRef = A5CB193B924D4807B030CB03 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/shaders/vshader_Texture.glsl */; };
+		4E7DA9756FD6441CA668DC5D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = E279855100A842A2B1E3955B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/nsgl_context.m */; };
+		4E9AE62F8A124667B865FC94 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3995C6DCDB294E8BA3F2BC27 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/CMakeLists.txt */; };
+		525214E3340E4323987A664C /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = A59629D8DF4B44BEB89F5F86 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/include/GLFW/glfw3.h */; };
+		5EA096C76C91489CAC7B74D2 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/u8names.h */ = {isa = PBXBuildFile; fileRef = AE934D4D09674F0B9FACB3E7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/u8names.h */; };
+		650465C969BA4743A9F62FB9 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/main.cpp */ = {isa = PBXBuildFile; fileRef = 5C16E586DAA947679BEE2735 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/main.cpp */; };
+		6B7E006919C146EBA449370A /* /Users/wufangzheng/Documents/phd/graphics/moon-2/shaders/fshader_Bullets.glsl */ = {isa = PBXBuildFile; fileRef = FBDE892D35F24F4397957B67 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/shaders/fshader_Bullets.glsl */; };
+		6C995419D31C44B78B4F363C /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 6311C948407341919CC1BC87 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_joystick.m */; };
+		8153B905057C4559AE510632 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/window.c */ = {isa = PBXBuildFile; fileRef = 4A465178277D410B8EFB4FB6 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/window.c */; };
+		8233D2B6C644434086ABA237 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Bullets.h */ = {isa = PBXBuildFile; fileRef = C6B3BC02D1594BC280E4DE89 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Bullets.h */; };
+		82DB2514E4454385B0601471 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Ship.cpp */ = {isa = PBXBuildFile; fileRef = 7B90269CF50C48048D5DB24A /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Ship.cpp */; };
+		87BF6D46FC2B4083BFD2BE09 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/context.c */ = {isa = PBXBuildFile; fileRef = F0F1EEC992A1465BB3492DEF /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/context.c */; };
+		8F7A4E3EC8564AE3B57B51F8 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/init.c */ = {isa = PBXBuildFile; fileRef = 66DD3EDE306C441CABDBCAAF /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/init.c */; };
+		902D09F1E31A4801879D956D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps/glad_gl.c */ = {isa = PBXBuildFile; fileRef = 65A118375F1A4B93812FB684 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps/glad_gl.c */; };
+		9861CBFEC661441BA7C3A344 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 1C8FC29E841F4AB18DA13DBF /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_window.m */; };
+		9BE38EACAB3141D0BA2F687F /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = C46684109C7D412994252D6B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_monitor.m */; };
+		9FA9B7DADAD44AA49F19B567 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Asteroid.h */ = {isa = PBXBuildFile; fileRef = 470F4B7812474210A86FEA2B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Asteroid.h */; };
+		A4E879D2F8934315A5569428 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/osmesa_context.h */ = {isa = PBXBuildFile; fileRef = F5536B274D0C4EE082DE41D7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/osmesa_context.h */; };
+		A62EF329B4E7486A83CF08E8 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/build/CMakeFiles/asteroids.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 18FA696AB8BA449C92B8E2E0 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/build/CMakeFiles/asteroids.dir/Info.plist */; };
+		A70A60EDB543491888AD9ACD /* /Users/wufangzheng/Documents/phd/graphics/moon-2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E44C4BD09D0B4DCCB9EE5489 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/CMakeLists.txt */; };
+		A83107A3A3F1451EA8C3A882 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/mappings.h */ = {isa = PBXBuildFile; fileRef = 560714AA9AC24AE087542E3A /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/mappings.h */; };
+		AAEBE0864E13434F9D844911 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = 76755B59497D45AB9473DD6C /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/osmesa_context.c */; };
+		ABC0F0D1C2E04470BEC05AA9 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/shaders/fshader_Texture.glsl */ = {isa = PBXBuildFile; fileRef = BC37663842C94EB28FAFE513 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/shaders/fshader_Texture.glsl */; };
+		B0AD537B5D144728A00F6DC4 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = 6818759ABFEA4EA4976B8916 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/posix_thread.c */; };
+		C0E77B4FD14740A5A498C041 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Ship.h */ = {isa = PBXBuildFile; fileRef = 197C9DC8745B4C3182D0A284 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Ship.h */; };
+		C0F69366BF28451283F3F6CC /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 6843556A137D4AB984859929 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/vulkan.c */; };
+		C376FA9AF3674C33BEB2D8D0 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/shader_process.h */ = {isa = PBXBuildFile; fileRef = 32E100CDC65E4AB19C492160 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/shader_process.h */; };
+		CDD0693FED244E3CB083956A /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/u8names.cpp */ = {isa = PBXBuildFile; fileRef = D0208B533F264017AD7DADC0 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/u8names.cpp */; };
+		CE39B6E7EA7440D298A2578E /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Game.cpp */ = {isa = PBXBuildFile; fileRef = 56F7F828956744229E8BB808 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Game.cpp */; };
+		D0E5E0CDE39946FB99381CF7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Game.h */ = {isa = PBXBuildFile; fileRef = BDBD59500C87430292A51CC6 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Game.h */; };
+		D7D3458CFE0E442FAA311EDA /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/lodepng.h */ = {isa = PBXBuildFile; fileRef = F25A2FE4355740FE9D1F9269 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/lodepng.h */; };
+		DB16DB218ACA441A93ACAC1F /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 0CAC1DF5AB98409FB858EA75 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_time.c */; };
+		DEB724BA2E42445BBE42EEFD /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/lodepng.cpp */ = {isa = PBXBuildFile; fileRef = D69D0084F9DC4166A954BD1D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/lodepng.cpp */; };
+		E05C7FA11AC541A6B6B2C64A /* /Users/wufangzheng/Documents/phd/graphics/moon-2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0E27E05F13B94177B71B440C /* /Users/wufangzheng/Documents/phd/graphics/moon-2/CMakeLists.txt */; };
+		E1D79BD032A74F28BA0DB07E /* /Users/wufangzheng/Documents/phd/graphics/moon-2/shaders/vshader_Bullets.glsl */ = {isa = PBXBuildFile; fileRef = A14063A1B4BB45CB924DA538 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/shaders/vshader_Bullets.glsl */; };
+		E3AB767FDCE341FC912EAB48 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps/glad/gl.h */ = {isa = PBXBuildFile; fileRef = 2D160AC9B6474A268E28BA01 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps/glad/gl.h */; };
+		EC08C60633BC4F3289FE7EC0 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = F38D881CB8AC4386A57D7FE5 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src/glfw_config.h */; };
+		EEF7AC97A33249459A1FCE94 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 9396ED5573924B92B6F43753 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_platform.h */; };
+		FA07323A38174412B7A5E267 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps/tinycthread.c */ = {isa = PBXBuildFile; fileRef = 46AB1BFE27124389A8437754 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps/tinycthread.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		56561297BABB4F2481BF991C /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		76905E11A07A44D988868521 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		C5812948463244E59692D174 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		C5B733C53A4C43C0A799D0FD /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		386D0FF2881845AFAA294757 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590195FCC2B44079AAF7791A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21572ADD842944D9AF64DE52;
+			remoteInfo = glfw;
+		};
+		507CA3254DFD455797DF654D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590195FCC2B44079AAF7791A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81E42213168D43A68147CD39;
+			remoteInfo = glad;
+		};
+		5A01A18EED104C94B1D5392F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590195FCC2B44079AAF7791A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFBEE9EDAF83446A815F8E5D;
+			remoteInfo = ZERO_CHECK;
+		};
+		5F91FB42504B44A686094EA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590195FCC2B44079AAF7791A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21572ADD842944D9AF64DE52;
+			remoteInfo = glfw;
+		};
+		91614C4DE694444D960268B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590195FCC2B44079AAF7791A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21572ADD842944D9AF64DE52;
+			remoteInfo = glfw;
+		};
+		9FB17F5FDE1D4B0A8B6C74A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590195FCC2B44079AAF7791A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFBEE9EDAF83446A815F8E5D;
+			remoteInfo = ZERO_CHECK;
+		};
+		B7EA4112CED94B5D9C715D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590195FCC2B44079AAF7791A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFBEE9EDAF83446A815F8E5D;
+			remoteInfo = ZERO_CHECK;
+		};
+		D3288746C5AE4EE6A5923A80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590195FCC2B44079AAF7791A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 985CB9E41CE9496082BD7806;
+			remoteInfo = asteroids;
+		};
+		D45436F5E3884D70968A37FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590195FCC2B44079AAF7791A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81E42213168D43A68147CD39;
+			remoteInfo = glad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BF8375CCFC45788BCECB78 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = "glfw-3.3.7/include/GLFW/glfw3native.h"; sourceTree = SOURCE_ROOT; };
+		03CCF080D2BF47959BF1860D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/CMake/GenerateMappings.cmake */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = GenerateMappings.cmake; path = "glfw-3.3.7/CMake/GenerateMappings.cmake"; sourceTree = SOURCE_ROOT; };
+		0CAC1DF5AB98409FB858EA75 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = "glfw-3.3.7/src/cocoa_time.c"; sourceTree = SOURCE_ROOT; };
+		0E27E05F13B94177B71B440C /* /Users/wufangzheng/Documents/phd/graphics/moon-2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		18FA696AB8BA449C92B8E2E0 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/build/CMakeFiles/asteroids.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build/CMakeFiles/asteroids.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		197C9DC8745B4C3182D0A284 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Ship.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Ship.h; path = source/Ship.h; sourceTree = SOURCE_ROOT; };
+		1C8FC29E841F4AB18DA13DBF /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = "glfw-3.3.7/src/cocoa_window.m"; sourceTree = SOURCE_ROOT; };
+		2215A051A90C4193B8EBF942 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps/glad_vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad_vulkan.c; path = "glfw-3.3.7/deps/glad_vulkan.c"; sourceTree = SOURCE_ROOT; };
+		23573F064E774B9CA1785F98 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = "glfw-3.3.7/src/nsgl_context.h"; sourceTree = SOURCE_ROOT; };
+		2D160AC9B6474A268E28BA01 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps/glad/gl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gl.h; path = "glfw-3.3.7/deps/glad/gl.h"; sourceTree = SOURCE_ROOT; };
+		2F63CB5CC18E4E8F9B9855DD /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = "glfw-3.3.7/src/internal.h"; sourceTree = SOURCE_ROOT; };
+		306A397AA143413193E8C714 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/egl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egl_context.h; path = "glfw-3.3.7/src/egl_context.h"; sourceTree = SOURCE_ROOT; };
+		32E100CDC65E4AB19C492160 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/shader_process.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = shader_process.h; path = source/utils/shader_process.h; sourceTree = SOURCE_ROOT; };
+		36C6ECBAFCEF4A8FBC3238B4 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = "glfw-3.3.7/src/egl_context.c"; sourceTree = SOURCE_ROOT; };
+		3995C6DCDB294E8BA3F2BC27 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "glfw-3.3.7/src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		46AB1BFE27124389A8437754 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps/tinycthread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tinycthread.c; path = "glfw-3.3.7/deps/tinycthread.c"; sourceTree = SOURCE_ROOT; };
+		470F4B7812474210A86FEA2B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Asteroid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Asteroid.h; path = source/Asteroid.h; sourceTree = SOURCE_ROOT; };
+		4A465178277D410B8EFB4FB6 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = "glfw-3.3.7/src/window.c"; sourceTree = SOURCE_ROOT; };
+		4F618BB713D84D4792CE0AA7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = "glfw-3.3.7/src/input.c"; sourceTree = SOURCE_ROOT; };
+		5066CCA07F464E31921E9297 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = "glfw-3.3.7/src/posix_thread.h"; sourceTree = SOURCE_ROOT; };
+		521977DCC7774BF6BC95D615 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "glfw-3.3.7/src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		560714AA9AC24AE087542E3A /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = "glfw-3.3.7/src/mappings.h"; sourceTree = SOURCE_ROOT; };
+		56F7F828956744229E8BB808 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Game.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Game.cpp; path = source/Game.cpp; sourceTree = SOURCE_ROOT; };
+		5C16E586DAA947679BEE2735 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = source/main.cpp; sourceTree = SOURCE_ROOT; };
+		60C6C011B2AB4CB191D05FEB /* glad */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglad.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6311C948407341919CC1BC87 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = "glfw-3.3.7/src/cocoa_joystick.m"; sourceTree = SOURCE_ROOT; };
+		6568DB8A380C46389072A364 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Bullets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Bullets.cpp; path = source/Bullets.cpp; sourceTree = SOURCE_ROOT; };
+		65A118375F1A4B93812FB684 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps/glad_gl.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad_gl.c; path = "glfw-3.3.7/deps/glad_gl.c"; sourceTree = SOURCE_ROOT; };
+		66DD3EDE306C441CABDBCAAF /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = "glfw-3.3.7/src/init.c"; sourceTree = SOURCE_ROOT; };
+		6818759ABFEA4EA4976B8916 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = "glfw-3.3.7/src/posix_thread.c"; sourceTree = SOURCE_ROOT; };
+		6843556A137D4AB984859929 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = "glfw-3.3.7/src/vulkan.c"; sourceTree = SOURCE_ROOT; };
+		69EC52DD6FAF49DA8CE92529 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = "glfw-3.3.7/src/cocoa_init.m"; sourceTree = SOURCE_ROOT; };
+		76755B59497D45AB9473DD6C /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = "glfw-3.3.7/src/osmesa_context.c"; sourceTree = SOURCE_ROOT; };
+		77D548ECBBB3467891D9446B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Asteroid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Asteroid.cpp; path = source/Asteroid.cpp; sourceTree = SOURCE_ROOT; };
+		7B90269CF50C48048D5DB24A /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Ship.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Ship.cpp; path = source/Ship.cpp; sourceTree = SOURCE_ROOT; };
+		81C92DE1CA974685852B43EA /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/vec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vec.h; path = source/utils/vec.h; sourceTree = SOURCE_ROOT; };
+		92FE95F923DF45B7B0002CE2 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Background.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Background.cpp; path = source/Background.cpp; sourceTree = SOURCE_ROOT; };
+		934B25B7799C4298BF1A04B2 /* asteroids */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = asteroids; sourceTree = BUILT_PRODUCTS_DIR; };
+		9396ED5573924B92B6F43753 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = "glfw-3.3.7/src/cocoa_platform.h"; sourceTree = SOURCE_ROOT; };
+		A14063A1B4BB45CB924DA538 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/shaders/vshader_Bullets.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = vshader_Bullets.glsl; path = shaders/vshader_Bullets.glsl; sourceTree = SOURCE_ROOT; };
+		A25ADB46A75E467EA0DEF4E7 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59629D8DF4B44BEB89F5F86 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = "glfw-3.3.7/include/GLFW/glfw3.h"; sourceTree = SOURCE_ROOT; };
+		A5CB193B924D4807B030CB03 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/shaders/vshader_Texture.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = vshader_Texture.glsl; path = shaders/vshader_Texture.glsl; sourceTree = SOURCE_ROOT; };
+		AE934D4D09674F0B9FACB3E7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/u8names.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = u8names.h; path = source/utils/u8names.h; sourceTree = SOURCE_ROOT; };
+		B413B2CF098B436F914D01D1 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/mat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mat.h; path = source/utils/mat.h; sourceTree = SOURCE_ROOT; };
+		B9CBAAE101F3407782F718BD /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/mappings.h.in */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mappings.h.in; path = "glfw-3.3.7/src/mappings.h.in"; sourceTree = SOURCE_ROOT; };
+		BC37663842C94EB28FAFE513 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/shaders/fshader_Texture.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = fshader_Texture.glsl; path = shaders/fshader_Texture.glsl; sourceTree = SOURCE_ROOT; };
+		BDBD59500C87430292A51CC6 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Game.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Game.h; path = source/Game.h; sourceTree = SOURCE_ROOT; };
+		C46684109C7D412994252D6B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = "glfw-3.3.7/src/cocoa_monitor.m"; sourceTree = SOURCE_ROOT; };
+		C6B3BC02D1594BC280E4DE89 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Bullets.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Bullets.h; path = source/Bullets.h; sourceTree = SOURCE_ROOT; };
+		D0208B533F264017AD7DADC0 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/u8names.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = u8names.cpp; path = source/utils/u8names.cpp; sourceTree = SOURCE_ROOT; };
+		D15ABB2738B54C25BAAA9996 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = "glfw-3.3.7/src/cocoa_joystick.h"; sourceTree = SOURCE_ROOT; };
+		D69D0084F9DC4166A954BD1D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/lodepng.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lodepng.cpp; path = source/utils/lodepng.cpp; sourceTree = SOURCE_ROOT; };
+		D9D4C1952C124F0888EEC879 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/path/path.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = path.cpp; path = source/path/path.cpp; sourceTree = SOURCE_ROOT; };
+		E279855100A842A2B1E3955B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = "glfw-3.3.7/src/nsgl_context.m"; sourceTree = SOURCE_ROOT; };
+		E44C4BD09D0B4DCCB9EE5489 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EEF89B538A9F4B6196DD763E /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = "glfw-3.3.7/src/monitor.c"; sourceTree = SOURCE_ROOT; };
+		F0F1EEC992A1465BB3492DEF /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = "glfw-3.3.7/src/context.c"; sourceTree = SOURCE_ROOT; };
+		F25A2FE4355740FE9D1F9269 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/lodepng.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lodepng.h; path = source/utils/lodepng.h; sourceTree = SOURCE_ROOT; };
+		F38D881CB8AC4386A57D7FE5 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "build/glfw-3.3.7/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
+		F5536B274D0C4EE082DE41D7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/osmesa_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osmesa_context.h; path = "glfw-3.3.7/src/osmesa_context.h"; sourceTree = SOURCE_ROOT; };
+		F79A4C983EFA4065AB8D1682 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Background.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Background.h; path = source/Background.h; sourceTree = SOURCE_ROOT; };
+		FBDE892D35F24F4397957B67 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/shaders/fshader_Bullets.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = fshader_Bullets.glsl; path = shaders/fshader_Bullets.glsl; sourceTree = SOURCE_ROOT; };
+		FC8B5F0E63794EAEAB3EAA9F /* /Users/wufangzheng/Documents/phd/graphics/moon-2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		005A95FD8FD14ADA88F43B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BACF6F0928B8415C9A294A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D498EF077B4364B807B9C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B895B1F446E48CD89976752 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		119790FEC1D74735AF120E37 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				AE60504C401C490F82287FCC /* CMake Rules */,
+				FC8B5F0E63794EAEAB3EAA9F /* /Users/wufangzheng/Documents/phd/graphics/moon-2/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		1881F6AF9D174DCBABD37D7E /* update_mappings */ = {
+			isa = PBXGroup;
+			children = (
+				DF5E3B1072AB48E785E4E15B /* Header Files */,
+				A55BEEB81EF0405B843964FC /* CMake Rules */,
+				03CCF080D2BF47959BF1860D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/CMake/GenerateMappings.cmake */,
+				521977DCC7774BF6BC95D615 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/CMakeLists.txt */,
+			);
+			name = update_mappings;
+			sourceTree = "<group>";
+		};
+		2636394A42FB4D1F93B22E31 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				F38D881CB8AC4386A57D7FE5 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src/glfw_config.h */,
+				A59629D8DF4B44BEB89F5F86 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/include/GLFW/glfw3.h */,
+				00BF8375CCFC45788BCECB78 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/include/GLFW/glfw3native.h */,
+				D15ABB2738B54C25BAAA9996 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_joystick.h */,
+				9396ED5573924B92B6F43753 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_platform.h */,
+				306A397AA143413193E8C714 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/egl_context.h */,
+				2F63CB5CC18E4E8F9B9855DD /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/internal.h */,
+				560714AA9AC24AE087542E3A /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/mappings.h */,
+				23573F064E774B9CA1785F98 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/nsgl_context.h */,
+				F5536B274D0C4EE082DE41D7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/osmesa_context.h */,
+				5066CCA07F464E31921E9297 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/posix_thread.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		37AA209761454CF586284E0B /* glad */ = {
+			isa = PBXGroup;
+			children = (
+				64B04688312546AA98D78B81 /* Header Files */,
+				EC16B3CC457646EEA6FBD14F /* Source Files */,
+				E44C4BD09D0B4DCCB9EE5489 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/CMakeLists.txt */,
+			);
+			name = glad;
+			sourceTree = "<group>";
+		};
+		3EED678DE966481E8BDC9FA4 = {
+			isa = PBXGroup;
+			children = (
+				37AA209761454CF586284E0B /* glad */,
+				FE9D9A6D498D4D3E9E272013 /* asteroids */,
+				119790FEC1D74735AF120E37 /* ALL_BUILD */,
+				B2B1E614036941E2B582DBB2 /* GLFW3 */,
+				EF74D5D51D0C449292049C34 /* Products */,
+				0B895B1F446E48CD89976752 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		64B04688312546AA98D78B81 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D160AC9B6474A268E28BA01 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps/glad/gl.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		852F8D3AB7D4482C88F2C075 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				77D548ECBBB3467891D9446B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Asteroid.cpp */,
+				92FE95F923DF45B7B0002CE2 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Background.cpp */,
+				6568DB8A380C46389072A364 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Bullets.cpp */,
+				56F7F828956744229E8BB808 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Game.cpp */,
+				7B90269CF50C48048D5DB24A /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Ship.cpp */,
+				5C16E586DAA947679BEE2735 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/main.cpp */,
+				D9D4C1952C124F0888EEC879 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/path/path.cpp */,
+				D69D0084F9DC4166A954BD1D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/lodepng.cpp */,
+				D0208B533F264017AD7DADC0 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/u8names.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A55BEEB81EF0405B843964FC /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		AE60504C401C490F82287FCC /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B198802E015140118138F9DA /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				D5D873A35EF3495FA2D06FFC /* Source Files */,
+				2636394A42FB4D1F93B22E31 /* Header Files */,
+				3995C6DCDB294E8BA3F2BC27 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		B2B1E614036941E2B582DBB2 /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				1881F6AF9D174DCBABD37D7E /* update_mappings */,
+				B198802E015140118138F9DA /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		CC53716094F64C0E9367F7C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18FA696AB8BA449C92B8E2E0 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/build/CMakeFiles/asteroids.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D5D873A35EF3495FA2D06FFC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				69EC52DD6FAF49DA8CE92529 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_init.m */,
+				6311C948407341919CC1BC87 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_joystick.m */,
+				C46684109C7D412994252D6B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_monitor.m */,
+				0CAC1DF5AB98409FB858EA75 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_time.c */,
+				1C8FC29E841F4AB18DA13DBF /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_window.m */,
+				F0F1EEC992A1465BB3492DEF /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/context.c */,
+				36C6ECBAFCEF4A8FBC3238B4 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/egl_context.c */,
+				66DD3EDE306C441CABDBCAAF /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/init.c */,
+				4F618BB713D84D4792CE0AA7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/input.c */,
+				EEF89B538A9F4B6196DD763E /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/monitor.c */,
+				E279855100A842A2B1E3955B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/nsgl_context.m */,
+				76755B59497D45AB9473DD6C /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/osmesa_context.c */,
+				6818759ABFEA4EA4976B8916 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/posix_thread.c */,
+				6843556A137D4AB984859929 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/vulkan.c */,
+				4A465178277D410B8EFB4FB6 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DF5E3B1072AB48E785E4E15B /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9CBAAE101F3407782F718BD /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/mappings.h.in */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		EC16B3CC457646EEA6FBD14F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				65A118375F1A4B93812FB684 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps/glad_gl.c */,
+				2215A051A90C4193B8EBF942 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps/glad_vulkan.c */,
+				46AB1BFE27124389A8437754 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps/tinycthread.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		EF74D5D51D0C449292049C34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				934B25B7799C4298BF1A04B2 /* asteroids */,
+				60C6C011B2AB4CB191D05FEB /* glad */,
+				A25ADB46A75E467EA0DEF4E7 /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE9D9A6D498D4D3E9E272013 /* asteroids */ = {
+			isa = PBXGroup;
+			children = (
+				FEF69878F4BC4E4386E446B0 /* Header Files */,
+				852F8D3AB7D4482C88F2C075 /* Source Files */,
+				CC53716094F64C0E9367F7C7 /* Resources */,
+				0E27E05F13B94177B71B440C /* /Users/wufangzheng/Documents/phd/graphics/moon-2/CMakeLists.txt */,
+				FBDE892D35F24F4397957B67 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/shaders/fshader_Bullets.glsl */,
+				BC37663842C94EB28FAFE513 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/shaders/fshader_Texture.glsl */,
+				A14063A1B4BB45CB924DA538 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/shaders/vshader_Bullets.glsl */,
+				A5CB193B924D4807B030CB03 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/shaders/vshader_Texture.glsl */,
+			);
+			name = asteroids;
+			sourceTree = "<group>";
+		};
+		FEF69878F4BC4E4386E446B0 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				470F4B7812474210A86FEA2B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Asteroid.h */,
+				F79A4C983EFA4065AB8D1682 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Background.h */,
+				C6B3BC02D1594BC280E4DE89 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Bullets.h */,
+				BDBD59500C87430292A51CC6 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Game.h */,
+				197C9DC8745B4C3182D0A284 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Ship.h */,
+				F25A2FE4355740FE9D1F9269 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/lodepng.h */,
+				B413B2CF098B436F914D01D1 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/mat.h */,
+				32E100CDC65E4AB19C492160 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/shader_process.h */,
+				AE934D4D09674F0B9FACB3E7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/u8names.h */,
+				81C92DE1CA974685852B43EA /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/vec.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21572ADD842944D9AF64DE52 /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D045A167402243DFBBBE7411 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				7C7AFA27D50B4CF0BB0A5772 /* Sources */,
+				E4D498EF077B4364B807B9C0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = A25ADB46A75E467EA0DEF4E7 /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+		81E42213168D43A68147CD39 /* glad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8B04CDA61E747C29E63304B /* Build configuration list for PBXNativeTarget "glad" */;
+			buildPhases = (
+				BE4F59A192B94E8AA40A53AC /* Sources */,
+				005A95FD8FD14ADA88F43B80 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A778832AE86B430695C67593 /* PBXTargetDependency */,
+				A52739EF23A649748B48BCE8 /* PBXTargetDependency */,
+			);
+			name = glad;
+			productName = glad;
+			productReference = 60C6C011B2AB4CB191D05FEB /* glad */;
+			productType = "com.apple.product-type.library.static";
+		};
+		985CB9E41CE9496082BD7806 /* asteroids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 084A916F86824CE08C935893 /* Build configuration list for PBXNativeTarget "asteroids" */;
+			buildPhases = (
+				AD154D28047E4F40BB396E7D /* Sources */,
+				BACF6F0928B8415C9A294A29 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E113A47AD1F34A8BBF504557 /* PBXTargetDependency */,
+				04DC6E221F1E48BA906F4368 /* PBXTargetDependency */,
+				4085DFBE45CD48259B70F495 /* PBXTargetDependency */,
+			);
+			name = asteroids;
+			productName = asteroids;
+			productReference = 934B25B7799C4298BF1A04B2 /* asteroids */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		590195FCC2B44079AAF7791A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = 517D22E95F9D4C958AF61504 /* Build configuration list for PBXProject "ASTEROIDS" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				56561297BABB4F2481BF991C /* Debug */,
+				76905E11A07A44D988868521 /* Release */,
+				C5B733C53A4C43C0A799D0FD /* MinSizeRel */,
+				C5812948463244E59692D174 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 3EED678DE966481E8BDC9FA4;
+			projectDirPath = "/Users/wufangzheng/Documents/phd/graphics/moon-2";
+			projectRoot = "";
+			targets = (
+				48A1ADC51928449DAFDB14ED /* ALL_BUILD */,
+				FFBEE9EDAF83446A815F8E5D /* ZERO_CHECK */,
+				985CB9E41CE9496082BD7806 /* asteroids */,
+				81E42213168D43A68147CD39 /* glad */,
+				21572ADD842944D9AF64DE52 /* glfw */,
+				DB8CB47837A848CB8110D0F4 /* update_mappings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		454E31CA3CCCA8795750BB1E /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/wufangzheng/Documents/phd/graphics/moon-2/build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/build
+  make -f /Users/wufangzheng/Documents/phd/graphics/moon-2/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/build
+  make -f /Users/wufangzheng/Documents/phd/graphics/moon-2/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/build
+  make -f /Users/wufangzheng/Documents/phd/graphics/moon-2/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/build
+  make -f /Users/wufangzheng/Documents/phd/graphics/moon-2/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		6571968EC3146E0306937743 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/wufangzheng/Documents/phd/graphics/moon-2/build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E172C2F4C775A1DA7BA6E0F1 /* Generate glfw-3.3.7/src/CMakeFiles/update_mappings */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate glfw-3.3.7/src/CMakeFiles/update_mappings";
+			outputPaths = (
+"/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src/CMakeFiles/update_mappings"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src
+  /Applications/CMake.app/Contents/bin/cmake -P /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src
+  /Applications/CMake.app/Contents/bin/cmake -P /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src
+  /Applications/CMake.app/Contents/bin/cmake -P /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src
+  /Applications/CMake.app/Contents/bin/cmake -P /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		EF220574C043FA76D2683574 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C7AFA27D50B4CF0BB0A5772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB81D9B73834074999E500A /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_init.m */,
+				6C995419D31C44B78B4F363C /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_joystick.m */,
+				9BE38EACAB3141D0BA2F687F /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_monitor.m */,
+				DB16DB218ACA441A93ACAC1F /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_time.c */,
+				9861CBFEC661441BA7C3A344 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/cocoa_window.m */,
+				87BF6D46FC2B4083BFD2BE09 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/context.c */,
+				169BF2337DFC42B4A388C56D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/egl_context.c */,
+				8F7A4E3EC8564AE3B57B51F8 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/init.c */,
+				34C2D46483754662B3B072AE /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/input.c */,
+				1089A3E9D9694F6E934E47C1 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/monitor.c */,
+				4E7DA9756FD6441CA668DC5D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/nsgl_context.m */,
+				AAEBE0864E13434F9D844911 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/osmesa_context.c */,
+				B0AD537B5D144728A00F6DC4 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/posix_thread.c */,
+				C0F69366BF28451283F3F6CC /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/vulkan.c */,
+				8153B905057C4559AE510632 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD154D28047E4F40BB396E7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4153F9F840B941959465FC5D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Asteroid.cpp */,
+				39264D0B590C4A94A471370F /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Background.cpp */,
+				1BBE7F7D643242E2B93F88E1 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Bullets.cpp */,
+				CE39B6E7EA7440D298A2578E /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Game.cpp */,
+				82DB2514E4454385B0601471 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/Ship.cpp */,
+				650465C969BA4743A9F62FB9 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/main.cpp */,
+				1D69600642B745B5904B936D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/path/path.cpp */,
+				DEB724BA2E42445BBE42EEFD /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/lodepng.cpp */,
+				CDD0693FED244E3CB083956A /* /Users/wufangzheng/Documents/phd/graphics/moon-2/source/utils/u8names.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4F59A192B94E8AA40A53AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902D09F1E31A4801879D956D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps/glad_gl.c */,
+				3AEAD97F0D6B4BE39840F050 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps/glad_vulkan.c */,
+				FA07323A38174412B7A5E267 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps/tinycthread.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04DC6E221F1E48BA906F4368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81E42213168D43A68147CD39 /* glad */;
+			targetProxy = 507CA3254DFD455797DF654D /* PBXContainerItemProxy */;
+		};
+		20960D8185244F9FB814E085 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 985CB9E41CE9496082BD7806 /* asteroids */;
+			targetProxy = D3288746C5AE4EE6A5923A80 /* PBXContainerItemProxy */;
+		};
+		4085DFBE45CD48259B70F495 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21572ADD842944D9AF64DE52 /* glfw */;
+			targetProxy = 5F91FB42504B44A686094EA5 /* PBXContainerItemProxy */;
+		};
+		A52739EF23A649748B48BCE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21572ADD842944D9AF64DE52 /* glfw */;
+			targetProxy = 91614C4DE694444D960268B9 /* PBXContainerItemProxy */;
+		};
+		A778832AE86B430695C67593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFBEE9EDAF83446A815F8E5D /* ZERO_CHECK */;
+			targetProxy = 5A01A18EED104C94B1D5392F /* PBXContainerItemProxy */;
+		};
+		AE0E16BD70CC486D90AA48D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFBEE9EDAF83446A815F8E5D /* ZERO_CHECK */;
+			targetProxy = B7EA4112CED94B5D9C715D0A /* PBXContainerItemProxy */;
+		};
+		D723EFF02D494724B7D44F0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21572ADD842944D9AF64DE52 /* glfw */;
+			targetProxy = 386D0FF2881845AFAA294757 /* PBXContainerItemProxy */;
+		};
+		D76A85FC82314D3C99D1EBDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81E42213168D43A68147CD39 /* glad */;
+			targetProxy = D45436F5E3884D70968A37FF /* PBXContainerItemProxy */;
+		};
+		E113A47AD1F34A8BBF504557 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFBEE9EDAF83446A815F8E5D /* ZERO_CHECK */;
+			targetProxy = 9FB17F5FDE1D4B0A8B6C74A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		049339D73EDC4DF6B4244140 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build/build";
+			};
+			name = MinSizeRel;
+		};
+		0F73451AEC324909A39412E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps","/Users/wufangzheng/Documents/phd/graphics/moon-2/source","/Users/wufangzheng/Documents/phd/graphics/moon-2/source/common","/Users/wufangzheng/Documents/phd/graphics/moon-2/shaders","/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/include","$(inherited)");
+				INFOPLIST_FILE = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build/CMakeFiles/asteroids.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src/Debug/libglfw3.a","/Users/wufangzheng/Documents/phd/graphics/moon-2/build/Debug/libglad.a","/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src/Debug/libglfw3.a","-framework Cocoa","-framework IOKit","-framework CoreFoundation","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = asteroids;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1078ED50585E4A91A0A86813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		10E627339DA7487C8B1B6558 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps","/Users/wufangzheng/Documents/phd/graphics/moon-2/source","/Users/wufangzheng/Documents/phd/graphics/moon-2/source/common","/Users/wufangzheng/Documents/phd/graphics/moon-2/shaders","/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		12F655CFA40943E0BBC64A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/include","/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src","/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   -fPIC -Wall '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1A4AFDE6592F4020B7646BD4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2441D4E7C94D44B19B544035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/include","/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src","/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC -Wall '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2534F189EA9444D198258DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps","/Users/wufangzheng/Documents/phd/graphics/moon-2/source","/Users/wufangzheng/Documents/phd/graphics/moon-2/source/common","/Users/wufangzheng/Documents/phd/graphics/moon-2/shaders","/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		38B92DB254044083A7B9B9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3CA9E470E9D046F989F5EC37 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps","/Users/wufangzheng/Documents/phd/graphics/moon-2/source","/Users/wufangzheng/Documents/phd/graphics/moon-2/source/common","/Users/wufangzheng/Documents/phd/graphics/moon-2/shaders","/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4223E1A5624C429795B4C24E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/include","/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src","/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG -fPIC -Wall '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5159CED56616425D82E126E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		554D0982DE544DD5BBE53167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build/build";
+			};
+			name = Debug;
+		};
+		5D012B56B0024C189A302E1B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6433B6FDE83C4F6FB736F973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build/build";
+			};
+			name = Release;
+		};
+		88FB3B4E2B6C414E909C39C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8B5A54BBDC7544F89CD87BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		919A70A1FF4D48F2BB3890A2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/include","/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/src","/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC -Wall '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9A2123335EDA4F4E96B7E9BF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AC272E0DE02C45B28FF9B374 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AC36D644D1724D579B6DA5C9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		B1050A934702443B861D6EB4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps","/Users/wufangzheng/Documents/phd/graphics/moon-2/source","/Users/wufangzheng/Documents/phd/graphics/moon-2/source/common","/Users/wufangzheng/Documents/phd/graphics/moon-2/shaders","/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/include","$(inherited)");
+				INFOPLIST_FILE = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build/CMakeFiles/asteroids.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src/MinSizeRel/libglfw3.a","/Users/wufangzheng/Documents/phd/graphics/moon-2/build/MinSizeRel/libglad.a","/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src/MinSizeRel/libglfw3.a","-framework Cocoa","-framework IOKit","-framework CoreFoundation","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = asteroids;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B3F89E67D80F48BBB5BF42E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B65214C58B194E94808E61E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps","/Users/wufangzheng/Documents/phd/graphics/moon-2/source","/Users/wufangzheng/Documents/phd/graphics/moon-2/source/common","/Users/wufangzheng/Documents/phd/graphics/moon-2/shaders","/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/include","$(inherited)");
+				INFOPLIST_FILE = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build/CMakeFiles/asteroids.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src/Release/libglfw3.a","/Users/wufangzheng/Documents/phd/graphics/moon-2/build/Release/libglad.a","/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src/Release/libglfw3.a","-framework Cocoa","-framework IOKit","-framework CoreFoundation","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = asteroids;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E6C69172487A464195FCCEFB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps","/Users/wufangzheng/Documents/phd/graphics/moon-2/source","/Users/wufangzheng/Documents/phd/graphics/moon-2/source/common","/Users/wufangzheng/Documents/phd/graphics/moon-2/shaders","/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/include","$(inherited)");
+				INFOPLIST_FILE = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build/CMakeFiles/asteroids.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src/RelWithDebInfo/libglfw3.a","/Users/wufangzheng/Documents/phd/graphics/moon-2/build/RelWithDebInfo/libglad.a","/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src/RelWithDebInfo/libglfw3.a","-framework Cocoa","-framework IOKit","-framework CoreFoundation","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = asteroids;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E9B671250D914AB48ABF5167 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EA858B04511F4833A3A4C0A9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F29A198CB8BD47888E75C418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/deps","/Users/wufangzheng/Documents/phd/graphics/moon-2/source","/Users/wufangzheng/Documents/phd/graphics/moon-2/source/common","/Users/wufangzheng/Documents/phd/graphics/moon-2/shaders","/Users/wufangzheng/Documents/phd/graphics/moon-2/glfw-3.3.7/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		084A916F86824CE08C935893 /* Build configuration list for PBXNativeTarget "asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F73451AEC324909A39412E4 /* Debug */,
+				B65214C58B194E94808E61E0 /* Release */,
+				B1050A934702443B861D6EB4 /* MinSizeRel */,
+				E6C69172487A464195FCCEFB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3A939FD6DA284CC8BA02681D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38B92DB254044083A7B9B9AA /* Debug */,
+				5159CED56616425D82E126E7 /* Release */,
+				AC272E0DE02C45B28FF9B374 /* MinSizeRel */,
+				9A2123335EDA4F4E96B7E9BF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		517D22E95F9D4C958AF61504 /* Build configuration list for PBXProject "ASTEROIDS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554D0982DE544DD5BBE53167 /* Debug */,
+				6433B6FDE83C4F6FB736F973 /* Release */,
+				049339D73EDC4DF6B4244140 /* MinSizeRel */,
+				AC36D644D1724D579B6DA5C9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9943DAC5E1DF46D7BCFBF557 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3F89E67D80F48BBB5BF42E2 /* Debug */,
+				8B5A54BBDC7544F89CD87BD2 /* Release */,
+				EA858B04511F4833A3A4C0A9 /* MinSizeRel */,
+				5D012B56B0024C189A302E1B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D045A167402243DFBBBE7411 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12F655CFA40943E0BBC64A1F /* Debug */,
+				2441D4E7C94D44B19B544035 /* Release */,
+				919A70A1FF4D48F2BB3890A2 /* MinSizeRel */,
+				4223E1A5624C429795B4C24E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D5F168809DA741B8B66CA95D /* Build configuration list for PBXAggregateTarget "update_mappings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88FB3B4E2B6C414E909C39C0 /* Debug */,
+				1078ED50585E4A91A0A86813 /* Release */,
+				E9B671250D914AB48ABF5167 /* MinSizeRel */,
+				1A4AFDE6592F4020B7646BD4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E8B04CDA61E747C29E63304B /* Build configuration list for PBXNativeTarget "glad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2534F189EA9444D198258DF8 /* Debug */,
+				F29A198CB8BD47888E75C418 /* Release */,
+				3CA9E470E9D046F989F5EC37 /* MinSizeRel */,
+				10E627339DA7487C8B1B6558 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 590195FCC2B44079AAF7791A /* Project object */;
+}

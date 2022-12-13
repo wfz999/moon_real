@@ -1,0 +1,8 @@
+/Users/wufangzheng/Documents/phd/graphics/moon-2/build/CMakeFiles/glad.dir
+/Users/wufangzheng/Documents/phd/graphics/moon-2/build/CMakeFiles/asteroids.dir
+/Users/wufangzheng/Documents/phd/graphics/moon-2/build/CMakeFiles/ALL_BUILD.dir
+/Users/wufangzheng/Documents/phd/graphics/moon-2/build/CMakeFiles/ZERO_CHECK.dir
+/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/CMakeFiles/ALL_BUILD.dir
+/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/CMakeFiles/ZERO_CHECK.dir
+/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src/CMakeFiles/update_mappings.dir
+/Users/wufangzheng/Documents/phd/graphics/moon-2/build/glfw-3.3.7/src/CMakeFiles/glfw.dir
